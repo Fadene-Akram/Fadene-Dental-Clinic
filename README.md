@@ -27,7 +27,7 @@
 
 | Patients | Patient Details |
 |----------|-----------------|
-| ![Patients](patients-image.png) | ![Patients](patient-details-image.png) |
+| ![Patients](patients-image.png) | ![Patients](patient-details-images.png) |
 
 | Appointments | Expenses |
 |-------------|----------|
