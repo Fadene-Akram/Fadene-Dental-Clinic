@@ -22,8 +22,6 @@
 
 ## 📸 Screenshots
 
-> Add your own screenshots to the `assets/` folder and update the image paths below.
-
 | Dashboard | Patient Records |
 |----------|-----------------|
 | ![Dashboard](assets/dashboard.png) | ![Patients](assets/patients.png) |
