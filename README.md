@@ -21,14 +21,21 @@
 ---
 
 ## 📸 Screenshots
-
-| Dashboard | Patient Records |
+| Splash Screen | Dashboard |
 |----------|-----------------|
-| ![Dashboard](dashboard-image.png) | ![Patients](patients-image.png) |
+| ![SplashScreen](splash-screen-image.png) | ![Dashboard](dashboard-image.png) |
+
+| Patients | Patient Details |
+|----------|-----------------|
+| ![Patients](patients-image.png) | ![Patients](patient-details-image.png) |
 
 | Appointments | Expenses |
 |-------------|----------|
 | ![Appointments](appointements-image.png) | ![Expenses](expenses-image.png) |
+
+| Notes |
+|-------------|
+| ![Appointments](notes-image.png) |
 
 ---
 
