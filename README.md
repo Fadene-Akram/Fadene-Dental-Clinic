@@ -24,11 +24,11 @@
 
 | Dashboard | Patient Records |
 |----------|-----------------|
-| ![Dashboard](assets/dashboard.png) | ![Patients](assets/patients.png) |
+| ![Dashboard](dashboard-image.png) | ![Patients](patients-image.png) |
 
 | Appointments | Expenses |
 |-------------|----------|
-| ![Appointments](assets/appointments.png) | ![Expenses](assets/expenses.png) |
+| ![Appointments](appointements-image.png) | ![Expenses](expenses-image.png) |
 
 ---
 
