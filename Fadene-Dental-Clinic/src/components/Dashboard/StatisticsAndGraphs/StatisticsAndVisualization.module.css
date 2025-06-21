@@ -1,0 +1,9 @@
+.statisticsContainer {
+  width: 70%;
+  height: fit-content;
+}
+
+.pieChartTableContainer {
+  height: fit-content;
+  display: flex;
+}

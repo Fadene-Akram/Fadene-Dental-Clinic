@@ -1,0 +1,86 @@
+.splashScreenContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.splashScreenbackground {
+  width: 65%;
+  background-image: url("../../Assets/Images/splash.png");
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.splashScreenbackground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 115, 255, 0.5);
+  z-index: 1;
+}
+
+.splashScreen {
+  width: 35%;
+  height: 100%;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.textContent {
+  margin-top: 10%;
+}
+
+.splashScreenTitle {
+  font-size: 25px;
+  color: rgb(0, 145, 255);
+  text-align: center;
+}
+
+.splashScreenDescription {
+  font-size: 16px;
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.604);
+  text-align: center;
+  list-style: none;
+}
+
+.mainFeatureList {
+  width: fit-content;
+  margin: 2rem 0 0 0;
+}
+
+.mainFeatureListItem {
+  color: rgba(0, 0, 0, 0.708);
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.mainFeatureListIcon {
+  width: 25px;
+  margin-right: 25px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 3%;
+  width: 100%;
+  text-align: center;
+}

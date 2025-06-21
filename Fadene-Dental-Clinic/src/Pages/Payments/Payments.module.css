@@ -1,0 +1,17 @@
+.paymentContainer {
+  padding: 1rem;
+  width: 83%;
+}
+
+.paymentTitle {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.tablesContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+  column-gap: 30px;
+}

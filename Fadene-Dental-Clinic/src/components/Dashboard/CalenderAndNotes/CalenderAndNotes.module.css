@@ -1,0 +1,5 @@
+.calendarContainer {
+  width: 30%;
+  height: fit-content;
+  overflow: hidden;
+}

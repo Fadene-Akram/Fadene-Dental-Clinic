@@ -1,0 +1,75 @@
+.laboratoryTableContainer {
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 15px;
+  width: 90%;
+}
+
+.laboratoryTableHeader {
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr 2fr 2.5fr;
+  text-align: center;
+  font-size: 12px;
+  background-color: #f3f4f6;
+  height: fit-content;
+  border-radius: 15px;
+  color: #000000ab;
+  margin-top: 15px;
+}
+
+.laboratoryTableHeaderItem {
+  padding: 1rem;
+}
+
+.laboratoryTableBody {
+  height: 300px;
+}
+
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 1rem;
+}
+
+.paginationButton {
+  padding: 4px 7px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background-color: #243956;
+  color: rgba(255, 255, 255, 0.768);
+  width: 100px;
+}
+
+.paginationButton:disabled {
+  background-color: #f3f4f6;
+  cursor: auto;
+  color: black;
+}
+
+.paginationButton:hover:not(:disabled) {
+  background-color: #243956b9;
+}
+
+.currentPageDisplay {
+  font-size: 14px;
+  color: black;
+  width: fit-content;
+  min-width: 40px;
+  padding: 4px 7px;
+  text-align: center;
+  background-color: #f3f4f6;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.paginationInfo {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+}

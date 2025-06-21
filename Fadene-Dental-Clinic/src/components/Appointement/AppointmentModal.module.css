@@ -1,0 +1,237 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  height: fit-content;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modalHeader {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.modalHeader h3 {
+  height: fit-content;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 200;
+}
+
+.closeButton {
+  height: fit-content;
+  width: fit-content;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #2d4669;
+}
+
+.closeButton:hover {
+  height: fit-content;
+  color: #4e6a91;
+}
+.modalBody {
+  height: 100%;
+}
+.formGroup {
+  height: fit-content;
+  margin-bottom: 1.1rem;
+}
+
+.formGroup label {
+  height: fit-content;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #374151b9;
+  font-size: 14px;
+}
+
+.formGroup input,
+.formGroup select {
+  height: fit-content;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-size: 14px;
+}
+
+.formGroup input:focus,
+.formGroup select:focus {
+  height: fit-content;
+  outline: none;
+  border-color: #264166;
+}
+
+.modalFooter {
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.cancelButton {
+  height: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  color: #6b7280;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+}
+
+.cancelButton:hover {
+  height: fit-content;
+  background-color: #f3f4f6;
+}
+
+.submitButton {
+  height: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: #2d4669;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover {
+  height: fit-content;
+  background-color: rgba(54, 83, 123, 0.874);
+}
+
+.icon {
+  height: fit-content;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.searchableSelect {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+
+.searchInputContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 8px;
+  width: 1rem;
+  height: 1rem;
+  color: #6b7280;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: rgb(45, 70, 105);
+  box-shadow: 0 0 0 2px rgba(45, 70, 105, 0.1);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 170px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  margin-top: 4px;
+  height: fit-content;
+}
+
+.dropdownItem {
+  height: fit-content;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 13px;
+  color: #000000a5;
+}
+
+.dropdownItem:hover {
+  background-color: #f3f4f6;
+}
+
+.noResults {
+  padding: 0.5rem 1rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 60px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  resize: vertical;
+}
+.textarea:focus {
+  outline: none;
+  border-color: rgb(45, 70, 105);
+  box-shadow: 0 0 0 2px rgba(45, 70, 105, 0.1);
+}
+
+.deleteButton {
+  height: fit-content;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #e63947be;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+}
+
+.deleteButton:hover {
+  height: fit-content;
+  background-color: rgba(230, 57, 71, 0.874);
+}

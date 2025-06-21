@@ -1,0 +1,27 @@
+.patientsContainer {
+  height: fit-content;
+  padding: 1rem;
+  width: 83%;
+}
+
+.patientsTitle {
+  height: fit-content;
+  font-size: 20px;
+  padding: 1rem;
+  font-weight: 200;
+}
+
+.patientsTablePagination {
+  height: fit-content;
+}
+
+.error {
+  height: fit-content;
+}
+
+.loadingContainer {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

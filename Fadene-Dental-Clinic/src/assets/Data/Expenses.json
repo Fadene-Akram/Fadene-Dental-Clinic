@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Office Supplies",
+    "id": "01",
+    "amount": 150.75,
+    "date": "2023-01-15"
+  },
+  {
+    "name": "Electricity Bill",
+    "id": "02",
+    "amount": 200.0,
+    "date": "2023-01-20"
+  },
+  {
+    "name": "Water Bill",
+    "id": "03",
+    "amount": 75.5,
+    "date": "2023-01-25"
+  },
+  {
+    "name": "Internet Bill",
+    "id": "04",
+    "amount": 100.0,
+    "date": "2023-01-30"
+  },
+  {
+    "name": "Cleaning Services",
+    "id": "05",
+    "amount": 250.0,
+    "date": "2023-02-01"
+  },
+  {
+    "name": "Cleaning Services",
+    "id": "06",
+    "amount": 250.0,
+    "date": "2023-02-01"
+  },
+  {
+    "name": "Cleaning Services",
+    "id": "07",
+    "amount": 250.0,
+    "date": "2023-02-01"
+  },
+  {
+    "name": "Cleaning Services",
+    "id": "08",
+    "amount": 250.0,
+    "date": "2023-02-01"
+  },
+  {
+    "name": "Cleaning Services",
+    "id": "09",
+    "amount": 250.0,
+    "date": "2023-02-01"
+  },
+  {
+    "name": "Cleaning Services",
+    "id": "10",
+    "amount": 250.0,
+    "date": "2023-02-01"
+  },
+  {
+    "name": "Cleaning Services",
+    "id": "11",
+    "amount": 250.0,
+    "date": "2023-02-01"
+  }
+]

@@ -1,0 +1,136 @@
+.container {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  height: fit-content;
+  width: 95%;
+  border-radius: 10px;
+  margin-right: 3%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 15px;
+  /* font-weight: 600; */
+  margin-bottom: 1rem;
+  height: fit-content;
+}
+
+.fieldsContainer {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  gap: 1rem;
+}
+
+.fieldRow {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+
+.fieldLabel {
+  width: 65%;
+  color: #4b5563;
+  height: fit-content;
+  padding: 0 1rem;
+}
+
+.editContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: fit-content;
+}
+
+.valueContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  height: fit-content;
+}
+
+.valueContainer:hover .editButton {
+  opacity: 1;
+}
+
+.valueText {
+  color: #111827;
+  height: fit-content;
+  width: fit-content;
+}
+
+.editButton {
+  padding: 0.1rem;
+  border-radius: 0.25rem;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: #3a5883;
+  font-size: large;
+  border: 1px solid #000000;
+}
+
+.editButton:hover {
+  background-color: #3a5883d5;
+}
+
+.input {
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  font-size: 0.875rem;
+  height: fit-content;
+  width: fit-content;
+  margin-right: auto;
+}
+
+.saveButton {
+  padding: 0.1rem;
+  border-radius: 0.25rem;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: #e0edfa;
+  font-size: large;
+  border: 1px solid #000000;
+}
+
+.saveButton:hover {
+  background-color: #cfe5fa;
+}
+
+.cancelButton {
+  padding: 0.1rem;
+  border-radius: 0.25rem;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: #3a5883;
+  font-size: large;
+  border: 1px solid #000000;
+}
+
+.cancelButton:hover {
+  background-color: #1f3350;
+}
+
+.saveIcon {
+  width: 1rem;
+  height: 1rem;
+  color: black;
+}
+
+.cancelIcon {
+  width: 1rem;
+  height: 1rem;
+  color: white;
+}
+
+.editIcon {
+  width: 1rem;
+  height: 1rem;
+  color: white;
+}

@@ -1,0 +1,18 @@
+.rowContainer {
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr 2fr 2.5fr;
+  text-align: center;
+  font-size: 14px;
+  height: fit-content;
+  align-items: center;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 12px;
+}
+
+.rowContainer:last-child {
+  border-bottom: none;
+}
+
+.rowColumn {
+  padding: 1rem;
+}

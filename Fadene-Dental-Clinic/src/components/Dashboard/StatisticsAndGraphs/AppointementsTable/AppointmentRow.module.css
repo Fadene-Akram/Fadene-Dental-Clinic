@@ -1,0 +1,19 @@
+.appointmentRowContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 2px solid #f0f0f0;
+  height: fit-content;
+  padding: 0.78rem;
+  text-align: center;
+}
+.appointmentRowContainer:last-child {
+  border-bottom: none;
+  padding-bottom: 0.5rem;
+}
+.patientName,
+.patientDate,
+.patientSymptom {
+  height: 9%;
+  font-size: 13px;
+  color: #000000d3;
+}

@@ -1,0 +1,106 @@
+.menueBarContainer {
+  /* height: auto; */
+  width: 17%;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menueBarLogo {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menueBarLogoImg {
+  width: 50px;
+  height: 50px;
+  /* background-color: #a2f2ef; */
+  /* padding: 8px; */
+  /* border-radius: 35%; */
+  /* border: 1px solid #a2f2ef; */
+}
+.menueBarLogoP {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0f5d75;
+  width: 70%;
+  padding: 5% 0;
+}
+
+.menueBarItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 12%;
+}
+
+.menueBarItem {
+  display: flex;
+  width: 90%;
+  height: 50px;
+  padding: 0 0.6rem;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #a2f2ef; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.itemLogo {
+  width: 25px;
+  height: 25px;
+}
+.itemLogo1 {
+  width: 23px;
+  height: 23px;
+}
+.itemLogo3 {
+  width: 27px;
+  height: 27px;
+}
+
+.itemP {
+  height: 45%;
+  width: 70%;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.activeItem {
+  background-color: #a2f2ef;
+  font-weight: 500;
+}
+
+.menueBarItem {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menueBarItem:hover {
+  background-color: #e0f9f8;
+}
+
+.logoutButton {
+  width: 14%;
+  /* margin-top: auto; */
+  padding: 10px;
+  background-color: #243956;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 2rem;
+}
+
+.logoutButton:hover {
+  background-color: rgb(36, 57, 86, 0.8);
+}

@@ -1,0 +1,141 @@
+.pieChartContainer {
+  width: 27%;
+  height: 420px;
+  border-radius: 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 1rem;
+  margin-top: 1.5rem;
+  overflow: hidden;
+}
+.pieChartTitle {
+  width: fit-content;
+  height: fit-content;
+  text-align: start;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pieChart {
+  width: 150%;
+  height: 150%;
+  left: -15px;
+}
+.legend {
+  margin-top: 10px;
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 5px; */
+  height: 30px;
+  width: fit-content;
+  margin-left: 14px;
+}
+
+.legendColor {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.legendText {
+  width: fit-content;
+  height: fit-content;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #4b4b4b;
+}
+
+/* PatientOverview.module.css */
+/* .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.chartContainer {
+  width: 80%;
+  max-width: 28rem;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.legend {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.legendItem {
+  margin-bottom: 0.75rem;
+}
+
+.legendText {
+  font-size: 0.875rem;
+  color: #4b4b4b;
+}
+
+.dots {
+  position: absolute;
+  left: 1rem;
+  top: 5rem;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 90%;
+}
+
+.dotWrapper {
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.dot {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.chartWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  height: fit-content;
+}
+
+.segment {
+  transition: opacity 0.3s;
+} */

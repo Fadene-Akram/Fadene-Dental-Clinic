@@ -1,0 +1,121 @@
+.addPatientContainer {
+  padding: 1rem;
+  width: 83%;
+}
+
+.backToPatients {
+  font-size: 12px;
+  height: fit-content;
+  color: rgba(0, 0, 0, 0.644);
+  padding: 1rem;
+  cursor: pointer;
+}
+.backToPatients:hover {
+  font-size: 13px;
+  color: #243956;
+  padding: 1rem;
+}
+.backArrow {
+  margin-right: 0.5rem;
+}
+.addPatientHeader {
+  height: fit-content;
+  padding: 1rem 2rem;
+  font-size: 16px;
+}
+
+.formContainer {
+  width: 95%;
+  padding: 1rem;
+  margin: auto;
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  border-radius: 15px;
+  margin-top: 1rem;
+  height: fit-content;
+}
+
+.basicInfo {
+  padding: 1rem;
+  height: fit-content;
+}
+
+.basicInfoForm {
+  padding: 1rem;
+  height: fit-content;
+}
+
+.pairInputs {
+  display: flex;
+  height: fit-content;
+}
+
+.formGroup {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.formInput {
+  border: none;
+  height: fit-content;
+  width: 80%;
+  height: 3rem;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.formInput:focus,
+.formInput:hover {
+  outline: 1px solid #243956;
+}
+
+.formLabel {
+  height: fit-content;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.selectopt {
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+.selectopt:hover {
+  background-color: #d3d3d3;
+}
+
+.errorMessage {
+  color: #ef4444;
+  font-size: 12px;
+  margin-top: 4px;
+  height: fit-content;
+}
+
+.submitButton {
+  background-color: #3b5c8a;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  height: fit-content;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  width: 50%;
+  font-size: 15px;
+  margin: 2rem 25%;
+  padding: 0.7rem;
+}
+
+.submitButton:hover {
+  background-color: #466da3;
+}
+
+/* Add this to your existing .formInput styles or create a new class */
+.border-red-500 {
+  outline: 1px solid #ef4444 !important;
+}

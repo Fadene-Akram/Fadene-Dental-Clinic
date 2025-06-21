@@ -1,0 +1,26 @@
+.customPagination {
+  height: fit-content;
+  display: flex;
+  justify-content: end;
+  padding-right: 5%;
+}
+
+.paginationButton {
+  height: 25px;
+  min-width: 40px;
+  border: none;
+  background-color: transparent;
+  width: fit-content;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.paginationButton :hover {
+  border-radius: 15px;
+  background-color: red;
+}
+
+.activePage {
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}

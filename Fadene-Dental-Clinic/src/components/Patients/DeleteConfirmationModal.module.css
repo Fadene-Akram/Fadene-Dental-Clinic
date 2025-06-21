@@ -1,0 +1,61 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 400px;
+}
+.modalContentTitle {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.modalContentP {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.656);
+  font-weight: 200;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancelButton {
+  background: gray;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 45%;
+}
+.cancelButton:hover {
+  background: rgba(128, 128, 128, 0.597);
+}
+
+.deleteButton {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 45%;
+}
+.deleteButton:hover {
+  background: rgba(255, 0, 0, 0.604);
+}

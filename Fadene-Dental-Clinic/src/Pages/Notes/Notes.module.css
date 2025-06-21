@@ -1,0 +1,267 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 83%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.board {
+  display: flex;
+  gap: 10px;
+  max-width: 1200px;
+}
+
+.column {
+  flex: 1;
+  border: 1px solid #2439563a;
+  border-radius: 15px;
+  min-height: 85vh;
+}
+
+.columnHeader {
+  font-size: 17px;
+  font-weight: 200;
+  padding: 1rem;
+  border-bottom: 1px solid #2439563a;
+  margin-bottom: 1rem;
+  background-color: rgba(228, 242, 255, 0.519);
+  /* background-color: #f3f4f6; */
+  border-radius: 15px 15px 0 0;
+}
+
+.taskList {
+  min-height: 100px;
+  border-radius: 8px;
+  padding: 0 1rem;
+}
+
+.task {
+  background-color: #b5e1fe;
+  /* background-color: rgb(228, 242, 255); */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: grab;
+  transition: background 0.3s ease;
+  font-size: 14px;
+  border: 1px solid #2439563a;
+  width: 270px;
+}
+
+.taskHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.taskContent {
+  font-weight: 400;
+  margin: 0;
+  width: 250px;
+}
+.taskContentP {
+  font-weight: 200;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.741);
+  margin: 0;
+  width: 250px;
+  text-wrap: wrap;
+}
+
+.taskFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.tag {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.feedbackTag {
+  background-color: #ffdd57;
+  color: #333;
+}
+.blockedTag {
+  background-color: #ff5c5c;
+  color: white;
+}
+.asapTag {
+  background-color: #ff9800;
+  color: white;
+}
+.defaultTag {
+  background-color: #ddd;
+  color: black;
+}
+
+.dueDate {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.664);
+}
+
+.overdue {
+  background-color: #ffbdbd !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 1rem;
+}
+
+.addButton {
+  width: 200px;
+  height: auto;
+  padding: 10px 15px;
+  border: none;
+  background-color: #243956;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.addButton:hover {
+  background-color: #243956ce;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modalTitle {
+  font-size: 16px;
+  font-weight: 300;
+}
+.modalContent input,
+.modalContent textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.modalContent input:focus,
+.modalContent textarea:focus {
+  outline: none;
+  border-color: #243956;
+}
+
+.modalContent button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.modalContent button:first-of-type {
+  background-color: #243956;
+  color: white;
+}
+.modalContent button:first-of-type:hover {
+  background-color: #243956c3;
+  transition: 0.15s;
+}
+
+.modalContent button:last-of-type {
+  background-color: #ccc;
+}
+
+.modalContent button:last-of-type:hover {
+  background-color: #cccccccd;
+}
+
+.inputGroup {
+  margin-bottom: 0.5rem;
+}
+
+.errorText {
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.taskActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-top: 19px;
+}
+
+.actionButton {
+  padding: 3px 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  width: fit-content;
+}
+
+.actionButton:first-of-type {
+  background-color: #243956;
+  color: white;
+}
+
+.actionButton:first-of-type:hover {
+  background-color: #243956ce;
+}
+
+.actionButton:last-of-type {
+  background-color: #ff5c5c;
+  color: white;
+}
+
+.actionButton:last-of-type:hover {
+  background-color: #ff5c5cce;
+}
+
+.actionButton:active {
+  transform: scale(0.95);
+}

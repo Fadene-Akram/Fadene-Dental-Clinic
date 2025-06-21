@@ -1,0 +1,106 @@
+.loginContainer {
+  display: flex;
+  /* padding: 1rem; */
+  width: 100%;
+  height: 100vh;
+}
+.loginLeft {
+  width: 50%;
+  background-color: #04b0ff;
+  /* background-color: #68b8fd; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 15px 15px 0;
+}
+.loginContent {
+  width: 70%;
+  height: fit-content;
+  margin: auto 2rem;
+  /* margin-left: 3rem; */
+  border-radius: 15px;
+  background: white;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.515); */
+}
+.loginTitle {
+  margin-top: 1rem;
+  padding: 1rem;
+  line-height: 150%;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+.loginForm {
+  padding: 1rem;
+  width: 100%;
+}
+.formGroup {
+  margin-top: 1rem;
+}
+
+.formLabel {
+  color: rgba(0, 0, 0, 0.678);
+  margin-bottom: 10px;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid #24395674;
+  /* background: #f4f4f4; */
+}
+
+.loginInput:focus {
+  border: 2px solid #243956;
+  outline: none;
+}
+
+.loginButton {
+  margin: 3rem 3rem 0 3rem;
+  padding: 0.7rem;
+  background-color: #243956;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #243956be;
+  color: white;
+}
+
+.signUpText {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 15px;
+}
+.resetPasswordText {
+  text-align: center;
+  /* margin-bottom: 1rem; */
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 15px;
+}
+
+.loginImgContainer {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.loginImg {
+  width: 100%;
+  height: 100%;
+  right: -5%;
+  bottom: 0;
+  position: absolute;
+}
+
+.errorText {
+  color: rgba(255, 0, 0, 0.699);
+  font-size: 14px;
+  text-align: center;
+}

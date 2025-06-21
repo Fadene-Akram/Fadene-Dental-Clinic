@@ -1,0 +1,8 @@
+.unauthorizedContainer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("src/assets/icons/unauthorized.svg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

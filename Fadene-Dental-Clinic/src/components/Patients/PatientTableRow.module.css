@@ -1,0 +1,60 @@
+.patientTableRowContainer {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr 1.3fr 1.5fr 2fr 1.5fr 2fr 1.5fr;
+  text-align: start;
+  font-size: 14px;
+  height: fit-content;
+  align-items: center;
+  padding: 1rem;
+  /* cursor: pointer; */
+}
+
+.patientTableRowContainer:hover {
+  border: 1px solid #243956;
+}
+
+.oddRow {
+  background-color: #f3f4f6;
+}
+
+.evenRow {
+  background-color: white;
+}
+
+.patientTableRowContainer:last-child {
+  border-radius: 0 0 15px 15px;
+}
+
+.rowColumn {
+  height: fit-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 1.2rem;
+  width: 100%;
+}
+
+.patientIcon {
+  width: 35px;
+  height: 35px;
+  background-color: #a1f3ee;
+  border-radius: 50%;
+  padding: 1%;
+  margin-right: 5%;
+}
+
+.iconColumn {
+  width: 22px;
+  height: fit-content;
+  margin: 0 7px;
+  cursor: pointer;
+}
+.iconColumn:hover {
+  scale: 1.2;
+  height: fit-content;
+  margin: 0 8px;
+}
+.iconColumn:first-child {
+  margin: 0 10px 0 0;
+}

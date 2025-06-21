@@ -1,0 +1,9 @@
+.paymentCardsContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 1rem 0;
+}

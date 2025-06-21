@@ -1,0 +1,164 @@
+.appointementsTableContainer {
+  width: 68%;
+  height: fit-content;
+  margin: 0;
+  margin-top: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointementsTableP {
+  height: 50px;
+  padding: 1rem;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.appointementsTabletitle {
+  height: 20px;
+  width: fit-content;
+}
+.appointementsTableplus {
+  height: 30px;
+  width: fit-content;
+  text-align: center;
+  /* padding: 0.2rem; */
+  color: #000000b0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.appointementsRows {
+  height: fit-content;
+  min-height: 220px;
+}
+
+.appointementsTableHeader {
+  display: grid;
+  height: fit-content;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0.5rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.appointementsTableHeaderColumn {
+  font-size: 13px;
+  height: fit-content;
+  color: rgba(0, 0, 0, 0.596);
+}
+
+.paginationButtons {
+  height: fit-content;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+.prevBtn,
+.nextBtn {
+  width: 80px;
+  height: fit-content;
+  margin: 0 1rem;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.disabledPrevBtn,
+.disabledNextBtn {
+  cursor: not-allowed;
+  width: 80px;
+  height: fit-content;
+  font-size: 12px;
+  padding: 0.4rem;
+  margin: 0 1rem;
+  text-align: center;
+  border-radius: 15px;
+  border: none;
+}
+
+.prevBtn:hover,
+.nextBtn:hover {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+.currentPage {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 1rem;
+  padding: 0.4rem;
+  font-size: 12px;
+}
+
+.appointementsTableFilter {
+  width: 96%;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #e0f8fa;
+  margin-top: 5px;
+}
+.dayButton {
+  width: 59px;
+  height: 35px;
+  background-color: none;
+  border: none;
+  background-color: #e0f8fa;
+  border-radius: 15px 0 0 15px;
+  cursor: pointer;
+  border-right: 1px solid rgb(245, 245, 245);
+  font-size: 13px;
+}
+
+.dayButton:first-child {
+  border-radius: 15px 0 0 15px;
+}
+
+.dayButton:last-child {
+  border-radius: 0 15px 15px 0;
+  border-right: none;
+}
+
+.dayButtonDay {
+  color: rgba(0, 0, 0, 0.432);
+  height: 17px;
+}
+
+.dayButtonDaySelected {
+  color: rgba(202, 202, 202, 0.74);
+  height: 17px;
+  font-size: 10px;
+}
+
+.dayButtonnumber {
+  color: rgba(0, 0, 0, 0.795);
+  height: 17px;
+}
+
+.dayButtonnumberSelected {
+  color: white;
+  height: fit-content;
+}
+
+.selectedDay {
+  background-color: #243956; /* Change to the desired highlight color */
+  color: white;
+  border-radius: 7px; /* Adjust if needed */
+}
+
+.noAppointments {
+  height: max-content;
+  text-align: center;
+}

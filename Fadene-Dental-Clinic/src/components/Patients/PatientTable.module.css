@@ -1,0 +1,28 @@
+.patientsTableContainer {
+  height: fit-content;
+  min-height: 70vh;
+  padding: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.patientsTableaheader {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr 1.3fr 1.5fr 2fr 1.5fr 2fr 1.5fr;
+  text-align: start;
+  font-size: 12px;
+  background-color: #f3f4f6;
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 15px 15px 0 0;
+  color: #000000ab;
+}
+
+.headerColumn {
+  height: fit-content;
+  padding-left: 1rem;
+}
+
+.patientsTableBody {
+  height: fit-content;
+}
